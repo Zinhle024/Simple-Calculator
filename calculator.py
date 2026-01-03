@@ -25,3 +25,7 @@ try:
 except ValueError:
     print("Invalid number entered")
     exit()
+
+
+if operation == "+":
+    print("Result:", add(num1, num2))
