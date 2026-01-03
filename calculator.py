@@ -16,4 +16,8 @@ print("Simple Calculator")
 print("Choose an operation:")
 print("+  -  *  /")
 
-operation = input("Enter operation: ")operation = input("Enter operation: ") 
+operation = input("Enter operation: ")
+
+try:
+    num1 = float(input("Enter first number: "))
+    num2 = float(input("Enter second number: "))
