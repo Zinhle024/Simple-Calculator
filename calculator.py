@@ -21,3 +21,7 @@ operation = input("Enter operation: ")
 try:
     num1 = float(input("Enter first number: "))
     num2 = float(input("Enter second number: "))
+
+except ValueError:
+    print("Invalid number entered")
+    exit()
