@@ -15,3 +15,5 @@ def divide(a, b):
 print("Simple Calculator")
 print("Choose an operation:")
 print("+  -  *  /")
+
+operation = input("Enter operation: ")operation = input("Enter operation: ") 
