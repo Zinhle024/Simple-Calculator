@@ -32,3 +32,6 @@ if operation == "+":
 
 elif operation == "-":
     print("Result:", subtract(num1, num2))
+
+elif operation == "*":
+    print("Result:", multiply(num1, num2))
