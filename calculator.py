@@ -35,3 +35,7 @@ elif operation == "-":
 
 elif operation == "*":
     print("Result:", multiply(num1, num2))
+elif operation == "/":
+    print("Result:", divide(num1, num2))
+else:
+    print("Invalid operation")
